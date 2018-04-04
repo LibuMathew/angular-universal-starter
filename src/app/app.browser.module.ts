@@ -5,7 +5,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { AppModule } from './app.module';
-import { REQUEST } from '@nguniversal/express-engine';
+import { REQUEST } from '@nguniversal/express-engine/tokens';
 // import { ServiceWorkerModule } from '@angular/service-worker';
 import { PrebootModule } from 'preboot';
 

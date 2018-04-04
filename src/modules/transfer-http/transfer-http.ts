@@ -1,8 +1,7 @@
 import { HttpClient, HttpHeaders, HttpParams, HttpResponse } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs/Observable';
-import 'rxjs/add/operator/do';
-import 'rxjs/add/observable/fromPromise';
+// tslint:disable-next-line:import-blacklist
+import { Observable, from } from 'rxjs';
 
 import { TransferState } from '@angular/platform-browser';
 

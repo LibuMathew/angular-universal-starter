@@ -10,7 +10,8 @@ import 'rxjs/add/operator/first';
 import { ModuleMapLoaderModule } from '@nguniversal/module-map-ngfactory-loader';
 import { ServerTransferStateModule } from '@angular/platform-server';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
-import { Observable } from 'rxjs/Observable';
+// tslint:disable-next-line:import-blacklist
+import { Observable } from 'rxjs';
 
 const fs = require('fs');
 
