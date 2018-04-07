@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { MetaService } from '@ngx-meta/core';
+// import { MetaService } from '@ngx-meta/core';
 import { TranslateService } from '@ngx-translate/core';
 
 @Component({
@@ -9,10 +9,11 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class AppComponent {
 
-  constructor(private readonly meta: MetaService,
+  constructor(
+    // private readonly meta: MetaService,
               private translate: TranslateService) {
     this.translate.setDefaultLang('en');
-    this.meta.setTag('og:title', 'home ctor');
+    // this.meta.setTag('og:title', 'home ctor');
   }
 
   changeLang(lang: string): void {
